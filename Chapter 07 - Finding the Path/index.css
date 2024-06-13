@@ -1,0 +1,85 @@
+
+.img-logo{
+    width: 100px;
+    height: 80px;
+}
+.container{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.ul-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.foodCardWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* This allows cards to wrap to the next line if needed */
+    gap: 10px; /* Adds spacing between cards */
+    justify-content: center; /* Centers the cards within the container */
+}
+
+/* Food card styles */
+.foodCard {
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center content inside the card */
+    height: auto;
+    width: 300px;
+    border: 1px solid purple;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    background-color: white; /* Added background color */
+    text-align: center; /* Center text inside the card */
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid purple; /* Added border to separate image */
+    border-radius: 5px 5px 0 0; /* Match border radius of card */
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-rating {
+    font-size: 20px;
+    color: grey;
+    margin: 5px 0;
+}
+
+.card-description {
+    font-size: 16px;
+    color: grey;
+    margin: 5px 0;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer{
+    height: 500px;
+    width: 300px;
+    border: 1px solid purple;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    background-color: white; /* Added background color */
+    text-align: center; /* Center text inside the card */
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
